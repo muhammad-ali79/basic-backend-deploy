@@ -15,7 +15,12 @@ app.get("/halwa", (req, res) => {
 app.get("/node", (req, res) => {
   res.send(`<h1>This is the page to learn node</h1>
 
-  <a herf="https://nodejs.org/>
+  <a herf="https://nodejs.org>visit nodejs</a>
+  `);
+});
+
+app.get("/react", (req, res) => {
+  res.send(`<a href="https://react.dev" target="_blank">Visit react.dev</a>
   `);
 });
 
